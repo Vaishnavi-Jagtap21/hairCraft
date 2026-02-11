@@ -131,7 +131,7 @@ public class BackendApplication {
                 e.printStackTrace();
             }
 
-            System.out.println("--- DB SCHEMA CHECK COMPLETE ---");
+            System.out.println("--- DB SCHEMA CHECK COMPLETE --");
         };
     }
 }
