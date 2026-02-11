@@ -1,0 +1,340 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.haircraft:backend >------------------------
+[INFO] Building HairCraft Backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.2:run (default-cli) > test-compile @ backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 71 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/Hp/OneDrive/Desktop/haircraft/backend/src/main/java/com/haircraft/backend/service/GoogleAuthService.java: C:\Users\Hp\OneDrive\Desktop\haircraft\backend\src\main\java\com\haircraft\backend\service\GoogleAuthService.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Hp/OneDrive/Desktop/haircraft/backend/src/main/java/com/haircraft/backend/service/GoogleAuthService.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ backend ---
+[INFO] skip non existing resourceDirectory C:\Users\Hp\OneDrive\Desktop\haircraft\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ backend ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.2.2:run (default-cli) < test-compile @ backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.2:run (default-cli) @ backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-02-10T17:27:45.398+05:30  INFO 2844 --- [backend] [           main] c.haircraft.backend.BackendApplication   : Starting BackendApplication using Java 23.0.2 with PID 2844 (C:\Users\Hp\OneDrive\Desktop\haircraft\backend\target\classes started by Hp in C:\Users\Hp\OneDrive\Desktop\haircraft\backend)
+2026-02-10T17:27:45.403+05:30  INFO 2844 --- [backend] [           main] c.haircraft.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-02-10T17:27:47.088+05:30  INFO 2844 --- [backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-10T17:27:47.269+05:30  INFO 2844 --- [backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 11 JPA repository interfaces.
+2026-02-10T17:27:48.249+05:30  INFO 2844 --- [backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-10T17:27:48.264+05:30  INFO 2844 --- [backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-10T17:27:48.265+05:30  INFO 2844 --- [backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-10T17:27:48.360+05:30  INFO 2844 --- [backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-10T17:27:48.361+05:30  INFO 2844 --- [backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2560 ms
+2026-02-10T17:27:48.523+05:30  INFO 2844 --- [backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-10T17:27:48.596+05:30  INFO 2844 --- [backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-10T17:27:48.637+05:30  INFO 2844 --- [backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-10T17:27:48.919+05:30  INFO 2844 --- [backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-10T17:27:48.955+05:30  INFO 2844 --- [backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-10T17:27:50.915+05:30  INFO 2844 --- [backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a38e3d1
+2026-02-10T17:27:50.917+05:30  INFO 2844 --- [backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-10T17:27:52.454+05:30  INFO 2844 --- [backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-10T17:27:57.767+05:30  INFO 2844 --- [backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-10T17:27:58.336+05:30  INFO 2844 --- [backend] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-10T17:28:00.290+05:30 DEBUG 2844 --- [backend] [           main] org.hibernate.SQL                        : select count(*) from stylist s1_0
+Hibernate: select count(*) from stylist s1_0
+=== STYLISTS ALREADY EXIST: 5 ===
+2026-02-10T17:28:01.139+05:30 DEBUG 2844 --- [backend] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 56 mappings in 'requestMappingHandlerMapping'
+2026-02-10T17:28:01.176+05:30 DEBUG 2844 --- [backend] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-10T17:28:01.245+05:30  INFO 2844 --- [backend] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@50659a9a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bd710f8, org.springframework.security.web.context.SecurityContextHolderFilter@4da15ed2, org.springframework.security.web.header.HeaderWriterFilter@33f24b0, org.springframework.web.filter.CorsFilter@545e1a0e, org.springframework.security.web.authentication.logout.LogoutFilter@23720740, com.haircraft.backend.utils.JwtAuthFilter@5a88ecb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6967bb91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72ed4e67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30a3c1e1, org.springframework.security.web.session.SessionManagementFilter@6972418c, org.springframework.security.web.access.ExceptionTranslationFilter@6bb8ebb0, org.springframework.security.web.access.intercept.AuthorizationFilter@5fd4377]
+2026-02-10T17:28:01.386+05:30 DEBUG 2844 --- [backend] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-10T17:28:01.441+05:30 DEBUG 2844 --- [backend] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-10T17:28:01.912+05:30  INFO 2844 --- [backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-02-10T17:28:01.928+05:30  INFO 2844 --- [backend] [           main] c.haircraft.backend.BackendApplication   : Started BackendApplication in 17.2 seconds (process running for 18.117)
+2026-02-10T17:28:02.027+05:30 DEBUG 2844 --- [backend] [           main] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+2026-02-10T17:28:02.271+05:30 DEBUG 2844 --- [backend] [   scheduling-1] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+hii
+2026-02-10T17:28:10.535+05:30  INFO 2844 --- [backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-10T17:28:10.535+05:30  INFO 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-10T17:28:10.535+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-02-10T17:28:10.535+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-02-10T17:28:10.535+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2026-02-10T17:28:10.536+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3f64099c
+2026-02-10T17:28:10.536+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7e349cc3
+2026-02-10T17:28:10.537+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-10T17:28:10.537+05:30  INFO 2844 --- [backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-02-10T17:28:10.551+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/appointments
+2026-02-10T17:28:10.564+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/appointments
+JwtAuthFilter: Processing request GET /api/admin/appointments
+JwtAuthFilter: Extracted user: admin@gmail.com
+2026-02-10T17:28:10.615+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Loading user with authority: ROLE_ADMIN
+JwtAuthFilter: User 'admin@gmail.com' validated. Roles: [ROLE_ADMIN]
+2026-02-10T17:28:10.876+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/appointments
+2026-02-10T17:28:10.878+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/appointments", parameters={}
+2026-02-10T17:28:10.880+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.haircraft.backend.controller.AdminController#getAllAppointments()
+AdminController: Fetching all appointments
+2026-02-10T17:28:11.288+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,s1_0.service_id,s1_0.badge,s1_0.category,s1_0.duration_minutes,s1_0.image,s1_0.name,s1_0.price,a1_0.start_time,a1_0.status,s2_0.id,s2_0.active,s2_0.capacity,s2_0.name,s2_0.specialization,a1_0.user_id,u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from appointment a1_0 left join services s1_0 on s1_0.service_id=a1_0.service_id left join users u1_0 on u1_0.id=a1_0.user_id left join stylist s2_0 on s2_0.id=a1_0.stylist_id order by a1_0.appointment_date desc
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,s1_0.service_id,s1_0.badge,s1_0.category,s1_0.duration_minutes,s1_0.image,s1_0.name,s1_0.price,a1_0.start_time,a1_0.status,s2_0.id,s2_0.active,s2_0.capacity,s2_0.name,s2_0.specialization,a1_0.user_id,u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from appointment a1_0 left join services s1_0 on s1_0.service_id=a1_0.service_id left join users u1_0 on u1_0.id=a1_0.user_id left join stylist s2_0 on s2_0.id=a1_0.stylist_id order by a1_0.appointment_date desc
+2026-02-10T17:28:11.987+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-10T17:28:11.988+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.haircraft.backend.dto.AppointmentDTO@b2a461e, com.haircraft.backend.dto.AppointmentDTO@5bd3a1ba (truncated)...]
+2026-02-10T17:28:12.023+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.apache.catalina.connector.ClientAbortException: java.io.IOException: An established connection was aborted by the software in your host machine
+2026-02-10T17:28:12.274+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/dashboard/stats
+2026-02-10T17:28:12.276+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/dashboard/stats
+2026-02-10T17:28:12.285+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/dashboard/stats
+JwtAuthFilter: Processing request GET /api/admin/dashboard/stats
+JwtAuthFilter: Extracted user: admin@gmail.com
+2026-02-10T17:28:12.291+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Loading user with authority: ROLE_ADMIN
+JwtAuthFilter: User 'admin@gmail.com' validated. Roles: [ROLE_ADMIN]
+2026-02-10T17:28:12.417+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/dashboard/stats
+2026-02-10T17:28:12.417+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/dashboard/stats", parameters={}
+2026-02-10T17:28:12.418+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.haircraft.backend.controller.AdminController#getStats()
+2026-02-10T17:28:12.696+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] org.hibernate.SQL                        : select count(*) from users u1_0
+Hibernate: select count(*) from users u1_0
+2026-02-10T17:28:13.533+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] org.hibernate.SQL                        : select count(*) from appointment a1_0
+Hibernate: select count(*) from appointment a1_0
+2026-02-10T17:28:14.052+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] org.hibernate.SQL                        : select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+Hibernate: select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+2026-02-10T17:28:14.255+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] org.hibernate.SQL                        : select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+Hibernate: select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+2026-02-10T17:28:14.359+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+2026-02-10T17:28:14.364+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.haircraft.backend.dto.DashboardOverviewResponse@4401ff5a]
+2026-02-10T17:28:14.367+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-02-10T17:28:14.373+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/dashboard/stats
+JwtAuthFilter: Processing request GET /api/admin/dashboard/stats
+JwtAuthFilter: Extracted user: admin@gmail.com
+2026-02-10T17:28:14.390+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Loading user with authority: ROLE_ADMIN
+JwtAuthFilter: User 'admin@gmail.com' validated. Roles: [ROLE_ADMIN]
+2026-02-10T17:28:14.495+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/dashboard/stats
+2026-02-10T17:28:14.495+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/dashboard/stats", parameters={}
+2026-02-10T17:28:14.498+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.haircraft.backend.controller.AdminController#getStats()
+2026-02-10T17:28:14.865+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] org.hibernate.SQL                        : select count(*) from users u1_0
+Hibernate: select count(*) from users u1_0
+2026-02-10T17:28:15.444+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] org.hibernate.SQL                        : select count(*) from appointment a1_0
+Hibernate: select count(*) from appointment a1_0
+2026-02-10T17:28:16.307+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] org.hibernate.SQL                        : select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+Hibernate: select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+2026-02-10T17:28:16.401+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] org.hibernate.SQL                        : select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+Hibernate: select count(a1_0.id) from appointment a1_0 where a1_0.status=?
+2026-02-10T17:28:16.493+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+2026-02-10T17:28:16.493+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.haircraft.backend.dto.DashboardOverviewResponse@5d2491f7]
+2026-02-10T17:28:16.495+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-02-10T17:28:43.760+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/appointments
+2026-02-10T17:28:43.770+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/appointments
+2026-02-10T17:28:43.782+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/appointments
+JwtAuthFilter: Processing request GET /api/admin/appointments
+JwtAuthFilter: Extracted user: admin@gmail.com
+2026-02-10T17:28:43.793+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Loading user with authority: ROLE_ADMIN
+JwtAuthFilter: User 'admin@gmail.com' validated. Roles: [ROLE_ADMIN]
+2026-02-10T17:28:44.063+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/appointments
+2026-02-10T17:28:44.063+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/appointments", parameters={}
+2026-02-10T17:28:44.064+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.haircraft.backend.controller.AdminController#getAllAppointments()
+AdminController: Fetching all appointments
+2026-02-10T17:28:44.265+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,s1_0.service_id,s1_0.badge,s1_0.category,s1_0.duration_minutes,s1_0.image,s1_0.name,s1_0.price,a1_0.start_time,a1_0.status,s2_0.id,s2_0.active,s2_0.capacity,s2_0.name,s2_0.specialization,a1_0.user_id,u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from appointment a1_0 left join services s1_0 on s1_0.service_id=a1_0.service_id left join users u1_0 on u1_0.id=a1_0.user_id left join stylist s2_0 on s2_0.id=a1_0.stylist_id order by a1_0.appointment_date desc
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,s1_0.service_id,s1_0.badge,s1_0.category,s1_0.duration_minutes,s1_0.image,s1_0.name,s1_0.price,a1_0.start_time,a1_0.status,s2_0.id,s2_0.active,s2_0.capacity,s2_0.name,s2_0.specialization,a1_0.user_id,u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from appointment a1_0 left join services s1_0 on s1_0.service_id=a1_0.service_id left join users u1_0 on u1_0.id=a1_0.user_id left join stylist s2_0 on s2_0.id=a1_0.stylist_id order by a1_0.appointment_date desc
+2026-02-10T17:28:44.969+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-10T17:28:44.969+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.haircraft.backend.dto.AppointmentDTO@221e2a69, com.haircraft.backend.dto.AppointmentDTO@2854187 (truncated)...]
+2026-02-10T17:28:44.972+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-02-10T17:28:44.975+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/admin/appointments
+JwtAuthFilter: Processing request GET /api/admin/appointments
+JwtAuthFilter: Extracted user: admin@gmail.com
+2026-02-10T17:28:44.979+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Loading user with authority: ROLE_ADMIN
+JwtAuthFilter: User 'admin@gmail.com' validated. Roles: [ROLE_ADMIN]
+2026-02-10T17:28:45.186+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/admin/appointments
+2026-02-10T17:28:45.186+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/appointments", parameters={}
+2026-02-10T17:28:45.186+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.haircraft.backend.controller.AdminController#getAllAppointments()
+AdminController: Fetching all appointments
+2026-02-10T17:28:45.488+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,s1_0.service_id,s1_0.badge,s1_0.category,s1_0.duration_minutes,s1_0.image,s1_0.name,s1_0.price,a1_0.start_time,a1_0.status,s2_0.id,s2_0.active,s2_0.capacity,s2_0.name,s2_0.specialization,a1_0.user_id,u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from appointment a1_0 left join services s1_0 on s1_0.service_id=a1_0.service_id left join users u1_0 on u1_0.id=a1_0.user_id left join stylist s2_0 on s2_0.id=a1_0.stylist_id order by a1_0.appointment_date desc
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,s1_0.service_id,s1_0.badge,s1_0.category,s1_0.duration_minutes,s1_0.image,s1_0.name,s1_0.price,a1_0.start_time,a1_0.status,s2_0.id,s2_0.active,s2_0.capacity,s2_0.name,s2_0.specialization,a1_0.user_id,u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from appointment a1_0 left join services s1_0 on s1_0.service_id=a1_0.service_id left join users u1_0 on u1_0.id=a1_0.user_id left join stylist s2_0 on s2_0.id=a1_0.stylist_id order by a1_0.appointment_date desc
+2026-02-10T17:28:46.343+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2026-02-10T17:28:46.343+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.haircraft.backend.dto.AppointmentDTO@4445dada, com.haircraft.backend.dto.AppointmentDTO@67b3843 (truncated)...]
+2026-02-10T17:28:46.360+05:30 DEBUG 2844 --- [backend] [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-02-10T17:28:51.231+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/admin/appointments/780001/status?status=REJECTED
+2026-02-10T17:28:51.240+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /api/admin/appointments/780001/status?status=REJECTED
+JwtAuthFilter: Processing request PUT /api/admin/appointments/780001/status
+JwtAuthFilter: Extracted user: admin@gmail.com
+2026-02-10T17:28:51.249+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,u1_0.stylist_id,u1_0.wallet_balance from users u1_0 where u1_0.email=?
+Loading user with authority: ROLE_ADMIN
+JwtAuthFilter: User 'admin@gmail.com' validated. Roles: [ROLE_ADMIN]
+2026-02-10T17:28:51.634+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /api/admin/appointments/780001/status?status=REJECTED
+2026-02-10T17:28:51.636+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/api/admin/appointments/780001/status?status=REJECTED", parameters={masked}
+2026-02-10T17:28:51.637+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.haircraft.backend.controller.AdminController#updateStatus(Long, AppointmentStatus)
+AdminController: Updating status for appointment 780001 to REJECTED
+AppointmentService: Updating status for 780001 to REJECTED
+2026-02-10T17:28:51.753+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.id=?
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.id=?
+AppointmentService: Status persisted to REJECTED
+2026-02-10T17:28:51.871+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : insert into notification (created_at,message,read_status,user_id) values (?,?,?,?)
+Hibernate: insert into notification (created_at,message,read_status,user_id) values (?,?,?,?)
+2026-02-10T17:28:52.074+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,s1_0.id,s1_0.active,s1_0.capacity,s1_0.name,s1_0.specialization,u1_0.wallet_balance from users u1_0 left join stylist s1_0 on s1_0.id=u1_0.stylist_id where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.image,u1_0.loyalty_points,u1_0.name,u1_0.password,u1_0.phone,u1_0.provider,u1_0.reset_otp,u1_0.reset_otp_expiry,u1_0.role,u1_0.status,u1_0.string,s1_0.id,s1_0.active,s1_0.capacity,s1_0.name,s1_0.specialization,u1_0.wallet_balance from users u1_0 left join stylist s1_0 on s1_0.id=u1_0.stylist_id where u1_0.id=?
+2026-02-10T17:28:56.862+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select we1_0.id,we1_0.created_at,we1_0.notified,we1_0.preferred_date,we1_0.preferred_time,we1_0.service_id,we1_0.stylist_id,we1_0.user_id from waitlist we1_0 left join stylist s1_0 on s1_0.id=we1_0.stylist_id where s1_0.id=? and we1_0.preferred_date=? and we1_0.preferred_time=? and not(we1_0.notified)
+Hibernate: select we1_0.id,we1_0.created_at,we1_0.notified,we1_0.preferred_date,we1_0.preferred_time,we1_0.service_id,we1_0.stylist_id,we1_0.user_id from waitlist we1_0 left join stylist s1_0 on s1_0.id=we1_0.stylist_id where s1_0.id=? and we1_0.preferred_date=? and we1_0.preferred_time=? and not(we1_0.notified)
+2026-02-10T17:28:56.955+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : insert into appointment_history (appointment_id,changed_at,status) values (?,?,?)
+Hibernate: insert into appointment_history (appointment_id,changed_at,status) values (?,?,?)
+2026-02-10T17:28:57.028+05:30  WARN 2844 --- [backend] [nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1265, SQLState: 01000
+2026-02-10T17:28:57.028+05:30 ERROR 2844 --- [backend] [nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncated for column 'status' at row 1
+Failed to save history: could not execute statement [Data truncated for column 'status' at row 1] [insert into appointment_history (appointment_id,changed_at,status) values (?,?,?)]
+2026-02-10T17:28:57.042+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : insert into appointment_timeline (appointment_id,status,time) values (?,?,?)
+Hibernate: insert into appointment_timeline (appointment_id,status,time) values (?,?,?)
+2026-02-10T17:28:57.172+05:30 ERROR 2844 --- [backend] [nio-8080-exec-2] org.hibernate.AssertionFailure           : HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.haircraft.backend.Entity.AppointmentHistory entry (don't flush the Session after an exception occurs)
+Flush failed: null id in com.haircraft.backend.Entity.AppointmentHistory entry (don't flush the Session after an exception occurs)
+2026-02-10T17:28:57.173+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select si1_0.service_id,si1_0.badge,si1_0.category,si1_0.duration_minutes,si1_0.image,si1_0.name,si1_0.price from services si1_0 where si1_0.service_id=?
+Hibernate: select si1_0.service_id,si1_0.badge,si1_0.category,si1_0.duration_minutes,si1_0.image,si1_0.name,si1_0.price from services si1_0 where si1_0.service_id=?
+2026-02-10T17:28:57.269+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] org.hibernate.SQL                        : select s1_0.id,s1_0.active,s1_0.capacity,s1_0.name,s1_0.specialization from stylist s1_0 where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.active,s1_0.capacity,s1_0.name,s1_0.specialization from stylist s1_0 where s1_0.id=?
+2026-02-10T17:28:57.583+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+2026-02-10T17:28:57.585+05:30 ERROR 2844 --- [backend] [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only] with root cause
+
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:803) ~[spring-tx-6.1.3.jar:6.1.3]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-6.1.3.jar:6.1.3]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:669) ~[spring-tx-6.1.3.jar:6.1.3]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:419) ~[spring-tx-6.1.3.jar:6.1.3]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.3.jar:6.1.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.3.jar:6.1.3]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.3.jar:6.1.3]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717) ~[spring-aop-6.1.3.jar:6.1.3]
+	at com.haircraft.backend.service.AppointmentService$$SpringCGLIB$$0.updateStatus(<generated>) ~[classes/:na]
+	at com.haircraft.backend.controller.AdminController.updateStatus(AdminController.java:97) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.18.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.18.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at com.haircraft.backend.utils.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:89) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225) ~[spring-security-config-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2026-02-10T17:28:57.604+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /error?status=REJECTED
+2026-02-10T17:28:57.605+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-02-10T17:28:57.606+05:30 DEBUG 2844 --- [backend] [nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-02-10T17:29:02.276+05:30 DEBUG 2844 --- [backend] [   scheduling-1] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+2026-02-10T17:30:02.282+05:30 DEBUG 2844 --- [backend] [   scheduling-1] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+2026-02-10T17:31:02.255+05:30 DEBUG 2844 --- [backend] [   scheduling-1] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+2026-02-10T17:32:02.295+05:30 DEBUG 2844 --- [backend] [   scheduling-1] org.hibernate.SQL                        : select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
+Hibernate: select a1_0.id,a1_0.amount,a1_0.appointment_date,a1_0.created_at,a1_0.end_time,a1_0.payment_status,a1_0.razorpay_payment_id,a1_0.refund_id,a1_0.refund_status,a1_0.reminder_minutes,a1_0.reminder_sent,a1_0.service_id,a1_0.start_time,a1_0.status,a1_0.stylist_id,a1_0.user_id from appointment a1_0 where a1_0.status=? and a1_0.appointment_date<?
