@@ -79,15 +79,7 @@ const Footer = () => {
             </ul>
           </nav>
 
-          {/* Legal */}
-          <nav>
-            <h6 className="text-lg font-semibold mb-4">Legal</h6>
-            <ul className="space-y-2 text-sm">
-              <li className="hover:text-rose-500 cursor-pointer">Terms of Use</li>
-              <li className="hover:text-rose-500 cursor-pointer">Privacy Policy</li>
-              <li className="hover:text-rose-500 cursor-pointer">Cookie Policy</li>
-            </ul>
-          </nav>
+         
 
         </div>
       </footer>

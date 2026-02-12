@@ -1,31 +1,0 @@
-[INFO] Scanning for projects...
-Downloading from spring-milestones: https://repo.spring.io/milestone/org/springframework/ai/spring-ai-bom/1.0.0-M1/spring-ai-bom-1.0.0-M1.pom
-Progress (1): 0.4/14 kBProgress (1): 1.8/14 kBProgress (1): 3.2/14 kBProgress (1): 4.6/14 kBProgress (1): 6.0/14 kBProgress (1): 7.4/14 kBProgress (1): 8.8/14 kBProgress (1): 10/14 kB Progress (1): 12/14 kBProgress (1): 13/14 kBProgress (1): 14 kB                      Downloaded from spring-milestones: https://repo.spring.io/milestone/org/springframework/ai/spring-ai-bom/1.0.0-M1/spring-ai-bom-1.0.0-M1.pom (14 kB at 9.2 kB/s)
-[INFO] 
-[INFO] -----------------------< com.haircraft:backend >------------------------
-[INFO] Building HairCraft Backend 0.0.1-SNAPSHOT
-[INFO]   from pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-Downloading from spring-milestones: https://repo.spring.io/milestone/org/springframework/ai/spring-ai-starter-model-openai/1.0.0-M1/spring-ai-starter-model-openai-1.0.0-M1.pom
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/ai/spring-ai-starter-model-openai/1.0.0-M1/spring-ai-starter-model-openai-1.0.0-M1.pom
-[WARNING] The POM for org.springframework.ai:spring-ai-starter-model-openai:jar:1.0.0-M1 is missing, no dependency information available
-Downloading from spring-milestones: https://repo.spring.io/milestone/org/springframework/ai/spring-ai-starter-model-openai/1.0.0-M1/spring-ai-starter-model-openai-1.0.0-M1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/ai/spring-ai-starter-model-openai/1.0.0-M1/spring-ai-starter-model-openai-1.0.0-M1.jar
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.542 s
-[INFO] Finished at: 2026-02-10T10:31:08+05:30
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal on project backend: Could not resolve dependencies for project com.haircraft:backend:jar:0.0.1-SNAPSHOT
-[ERROR] dependency: org.springframework.ai:spring-ai-starter-model-openai:jar:1.0.0-M1 (compile)
-[ERROR] 	Could not find artifact org.springframework.ai:spring-ai-starter-model-openai:jar:1.0.0-M1 in spring-milestones (https://repo.spring.io/milestone)
-[ERROR] 	Could not find artifact org.springframework.ai:spring-ai-starter-model-openai:jar:1.0.0-M1 in central (https://repo.maven.apache.org/maven2)
-[ERROR] 
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

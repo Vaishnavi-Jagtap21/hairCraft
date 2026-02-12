@@ -1,9 +1,0 @@
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] -----------------------< com.haircraft:backend >------------------------
-[INFO] Building HairCraft Backend 0.0.1-SNAPSHOT
-[INFO]   from pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] --- clean:3.3.2:clean (default-clean) @ backend ---
-Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
