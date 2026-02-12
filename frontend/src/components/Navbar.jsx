@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* DESKTOP MENU */}
           <ul className="hidden md:flex items-center gap-8 text-lg ">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/booking">Booking</Link></li>
+            {/* <li><Link to="/booking">Booking</Link></li> */}
             <li><Link to="/contact">Contact Us</Link></li>
             <li><Link to="/offers">Offers</Link></li>
 

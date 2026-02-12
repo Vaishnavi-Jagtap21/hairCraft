@@ -21,7 +21,7 @@ const StylistSelector = ({ selectedStylist, onSelect }) => {
     return (
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             {/* ANY AVAILABLE OPTION */}
-            <button
+            {/* <button
                 onClick={() => onSelect("ANY")}
                 className={`p-4 rounded-xl border text-left transition flex flex-col justify-between h-24
           ${selectedStylist === "ANY"
@@ -29,9 +29,9 @@ const StylistSelector = ({ selectedStylist, onSelect }) => {
                         : "bg-white hover:bg-gray-50 border-gray-200"
                     }`}
             >
-                <span className="font-bold">Any Stylist</span>
-                <span className="text-xs opacity-70">For faster booking</span>
-            </button>
+                {/* <span className="font-bold">Any Stylist</span>
+                <span className="text-xs opacity-70">For faster booking</span> */}
+            {/* </button> */} 
 
             {stylists.map((stylist) => (
                 <button
